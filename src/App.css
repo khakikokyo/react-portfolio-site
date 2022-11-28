@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5;
+  background-color: #fffef5;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,38 @@
+.header__container {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.header__inner {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  float: center;
+  margin: auto;
+  align-items: center;
+}
+.header__inner .header__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  cursor: pointer;
+}
+.header__inner .header__title:hover {
+  color: #656565;
+}
+.header__inner .header__menu {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+.header__inner .header__menu div {
+  margin-right: 70px;
+}
+.header__inner .header__menu div:hover {
+  color: #656565;
+}
+.header__inner .header__menu div:last-child {
+  margin-right: 0;
+}
