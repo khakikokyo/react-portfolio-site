@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.about__container {
+  width: 100%;
+}
+.about__container .about__title {
+  height: 150px;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__container .about__title p {
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+.about__inner {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__inner .about__photo {
+  margin-right: 150px;
+}
+.about__inner .about__photo img {
+  border-radius: 10%;
+  filter: grayscale(80%) contrast(120%);
+  transition: all .5s;
+}
+.about__inner .about__photo img:hover {
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  filter: none;
+}
+.about__inner .about__photo p {
+  position: absolute;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #cd838a;
+  transform: translate(-37%, -510%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+.about__inner .about__text p {
+  line-height: 1.7;
+  color: #333;
+  font-weight: 500;
+}
+.about__inner .about__text p:first-child {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.4;
+}
+.about__inner .about__text span {
+  font-size: 30px;
+  color: #cd838a;
+  border-bottom: 2px solid #f9c62d;
+  padding-bottom: 3px;
+}
+
+/* about__icon */
+.about__icon__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  margin-top: 30px;
+}
+.about__icon__item {
+  display: flex;
+  align-items: center;
+}
+.about__icon {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 30px;
+}
+.about__icon__text {
+  font-size: 18px;
+  color: #444;
+}
+.about__icon__text span {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .about__inner {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__icon__container {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
