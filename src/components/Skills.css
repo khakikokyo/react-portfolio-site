@@ -1,0 +1,23 @@
+.skills__container {
+  width: 100%;
+  height: 37vh;
+  background-color: #ffdf00;
+}
+.skills__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills__logo img {
+  width: 130px;
+  height: 130px;
+}
+
+@media screen and (max-width: 992px) {
+  .skills__logo {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

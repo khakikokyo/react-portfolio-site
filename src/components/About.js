@@ -1,15 +1,12 @@
 import './About.css';
-import { useMediaQuery } from 'react-responsive';
 import { MdFaceUnlock, MdPhoneIphone } from 'react-icons/md';
 import { AiOutlineCalendar, AiOutlineMail } from 'react-icons/ai';
 
 function About() {
 
-  const responsive = useMediaQuery({query: '(max-width:768px)'});
-
   return(
     <div className="about__container">
-      <div className="about__title"><p>About Me</p></div>
+      <div className="common__title"><p>About Me</p></div>
       <div className="about__inner">
         <div className="about__photo">
           <img src={process.env.PUBLIC_URL + '/img/hyeyoung.jpg'} alt="me" />

@@ -11,3 +11,32 @@ input:focus,
 button:focus {
   outline: none;
 }
+
+.common__title {
+  height: 170px;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common__title p {
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+
+div {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+html {
+  line-height: 1.15;
+}
+
+@media screen and (max-width: 992px) {
+  div {
+    overflow: hidden;
+  }
+}
