@@ -34,9 +34,6 @@ body {
 html {
   line-height: 1.15;
 }
-
-@media screen and (max-width: 992px) {
-  div {
-    overflow: hidden;
-  }
+a {
+  text-decoration: none;
 }

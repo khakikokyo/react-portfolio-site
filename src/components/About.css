@@ -78,6 +78,7 @@
 
 @media screen and (max-width: 992px) {
   .about__inner {
+    position: relative;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -85,7 +86,8 @@
     align-items: center;
   }
   .about__icon__container {
-    background-color: #eee;
+    position: absolute;
+    background-color: #fff;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;

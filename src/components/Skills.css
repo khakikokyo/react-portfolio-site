@@ -15,9 +15,11 @@
 
 @media screen and (max-width: 992px) {
   .skills__logo {
+    background-color: #ffdf00;
+    position: absolute;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
