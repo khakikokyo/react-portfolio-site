@@ -4,9 +4,7 @@ import { FaChevronRight } from 'react-icons/fa';
 function Project({project, navigate}) {
   return(
     <div className="projects__inner">
-      <img src={ project.imgUrl } alt="project img" onClick={()=>{
-        navigate('/');
-      }} />
+      <img src={ project.imgUrl } alt="project img" />
       <p className="projects__title">{ project.title }</p>
       <p className="projects__contents">{ project.contents }</p>
       <p className="projects__skill">{ project.skill }</p>
