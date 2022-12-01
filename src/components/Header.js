@@ -1,4 +1,3 @@
-import { GoThreeBars } from 'react-icons/go';
 import './Header.css';
 
 function Header({navigate}) {
@@ -10,10 +9,6 @@ function Header({navigate}) {
           <div className="header__menu__item">Skills</div>
           <div className="header__menu__item">Project</div>
         </div>
-        <div className="header__toogleBtn">
-          <GoThreeBars />
-        </div>
-        
     </div>
   )
 }
