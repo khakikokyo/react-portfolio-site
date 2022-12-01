@@ -71,3 +71,23 @@
 .projects__move .logo {
   font-size: 13px;
 }
+
+@media screen and (max-width: 992px) {
+  .projects__box {
+    background-color: #efe8d8;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projects__inner {
+    width: 80%;
+    height: 90%;
+  }
+  .projects__inner img {
+    display: none;
+  }
+  .projects__move__item {
+    display: none;
+  }
+}
