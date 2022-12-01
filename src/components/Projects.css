@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-
 .projects__container {
   background-color: #efe8d8;
   width: 100%;
-  height: 91vh;
+  height: 100vh;
 }
 .projects__box {
   width: 100%;
@@ -19,6 +17,7 @@
   height: 710px;
   border-radius: 3%;
   box-shadow: 10px 14px 28px #999;
+  margin-top: 50px;
 }
 .projects__inner:hover {
   transform: scale(1.02);
@@ -34,7 +33,6 @@
 .projects__skill,
 .projects__move {
   padding: 0 15px;
-  font-family: 'Raleway', sans-serif;
 }
 .projects__title {
   font-size: 30px;
