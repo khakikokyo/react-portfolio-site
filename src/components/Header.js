@@ -1,13 +1,21 @@
+import { Link } from 'react-scroll';
 import './Header.css';
 
-function Header({navigate}) {
+function Header() {
+
   return (
     <div className="header__container">
-      <div className="header__title" onClick={()=>{ navigate('/') }}>PHY's Portfolio</div>
+      <a href="/" className="header__title">PHY's Portfolio</a>
         <div className="header__menu">
-          <div className="header__menu__item">About me</div>
-          <div className="header__menu__item">Skills</div>
-          <div className="header__menu__item">Project</div>
+          <Link className="header__menu__item" to="1" spy={true} smooth={true}>
+            <p>About me</p>
+          </Link>
+          <Link className="header__menu__item" to="2" spy={true} smooth={true}>
+            <p>Skills</p>
+          </Link>
+          <Link className="header__menu__item" to="3" spy={true} smooth={true}>
+            <p>Projects</p>
+          </Link>
         </div>
     </div>
   )

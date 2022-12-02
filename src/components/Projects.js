@@ -8,7 +8,7 @@ function Projects({navigate}) {
   let [project] = useState(projectData);
 
   return(
-    <div className="projects__container">
+    <div className="projects__container" id="3">
       <div className="common__title"><p>Projects</p></div>
       <div className="projects__box">
         {

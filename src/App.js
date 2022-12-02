@@ -1,6 +1,5 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import data from './data/data';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -12,8 +11,6 @@ import Footer from './components/Footer';
 function App() {
 
   const [logo] = useState(data);
-  const navigate = useNavigate();
-
   const [position, setPosition] = useState(0);
 
   function onScroll() {
@@ -28,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header navigate={navigate} onScroll={onScroll} />
+      <Header onScroll={onScroll} />
       <Main />
       <About position={position} />
       <Skills logo={logo} />

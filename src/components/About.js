@@ -5,10 +5,10 @@ import { AiOutlineCalendar, AiOutlineMail } from 'react-icons/ai';
 function About({position}) {
 
   return(
-    <div className="about__container">
+    <div className="about__container" id="1">
       <div className="common__title"><p>About Me</p></div>
       <div className="about__inner" style={{
-        opacity: (position - 300) / 900
+        opacity: (position - 200) / 900
       }}>
         <div className="about__photo">
           <img src={process.env.PUBLIC_URL + '/img/hyeyoung.jpg'} alt="me" />
