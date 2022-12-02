@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import data from './data/data';
 import Header from './components/Header';
@@ -14,11 +14,23 @@ function App() {
   const [logo] = useState(data);
   const navigate = useNavigate();
 
+  const [position, setPosition] = useState(0);
+
+  function onScroll() {
+    setPosition(window.scrollY);
+  }
+  useEffect(()=>{
+    window.addEventListener('scroll', onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    }
+  }, []);
+
   return (
     <div className="App">
-      <Header navigate={navigate} />
+      <Header navigate={navigate} onScroll={onScroll} />
       <Main />
-      <About />
+      <About position={position} />
       <Skills logo={logo} />
       <Projects />
       <Footer />

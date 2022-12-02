@@ -1,0 +1,20 @@
+#to-top {
+  font-size: 38px;
+  padding: 10px 8px 0 8px;
+  background-color: #333;
+  opacity: .8;
+  box-shadow: 10px 15px 25px #333;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 35px;
+  right: 50px;
+  z-index: 9;
+}
+#to-top:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}

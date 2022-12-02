@@ -10,7 +10,7 @@ function Project({project, navigate}) {
       <p className="projects__skill">{ project.skill }</p>
       <div className="projects__move">
         <a className="projects__move__item" target="_blank" rel="noreferrer" href={project.gitUrl}>자세히 보기 <FaChevronRight className="logo" /> GITHUB</a>
-        <a className="projects__move__item" target="_blank" rel="noreferrer" href={project.siteUrl}>자세히 보기 <FaChevronRight className="logo" /> SITE</a>
+        <a className="projects__move__item" target="_blank" rel="noreferrer" href={project.siteUrl}>사이트 이동 <FaChevronRight className="logo" /> SITE</a>
       </div>
     </div>
   )
