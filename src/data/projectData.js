@@ -30,7 +30,7 @@ const projectData = [
     id: 4,
     title: "Todo List",
     skill: "#React, #HTML5, #css3",
-    contents: "오늘 할 일을 적어놓고 관리해 주는 ToDay Todo List Project입니다. React 학습을 위해 추가/삭제/전체삭제 등의 간단한 기능을 구현한 To Do List 입니다.",
+    contents: "오늘 할 일을 적어놓고 관리해 주는 ToDay Todo List Project입니다. React 학습을 위해 글추가/삭제/전체삭제 등의 기능을 구현했습니다.",
     imgUrl: "./img/todolist_main.png",
     gitUrl: "https://github.com/khakikokyo/todo-list",
     siteUrl: "https://phy-todolist.netlify.app/"
