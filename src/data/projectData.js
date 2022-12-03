@@ -3,7 +3,7 @@ const projectData = [
     id: 1,
     title: "Portfolio Site",
     skill: "#React, #HTML5 #CSS3",
-    contents: "포트폴리오 용도로 제작한 웹사이트입니다. 간단한 자기소개와 인적사항, 사용가능한 기술 스택과 진행한 프로젝트 경험들을 한눈에 확인하고, 소개하는 포트폴리오 사이트 입니다. Github 와 프로젝트 사이트로의 이동과 제 이력을 간편하게 확인하실 수 있습니다.",
+    contents: "포트폴리오 용도로 제작한 React 웹사이트입니다. 간단한 자기소개와 인적사항, 사용가능한 기술 스택과 진행한 프로젝트 경험들을 한눈에 확인하고, 소개하는 포트폴리오 사이트 입니다. Github 와 프로젝트 사이트로의 이동과 제 이력을 간편하게 확인하실 수 있습니다.",
     imgUrl: "./img/project_main.png",
     gitUrl: "https://github.com/khakikokyo/react-portfolio-site",
     siteUrl: "https://phy-portfolio.netlify.app/"
